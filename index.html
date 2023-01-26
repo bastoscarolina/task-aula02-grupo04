@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 Git - Grupo 04</title>
+</head>
+<body>
+    <header>
+        <h1>11º Vem Ser</h1>
+        <h2>DBC</h2>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Componentes</li>
+                <li>Nossos Projetos</li>
+            </ul>
+        </nav>
+
+        <a href="https://github.com/bastoscarolina/task-aula02-grupo04">Repositório
+
+        </a>
+        <table>
+
+            <tr>
+                <td>Carolina Bastos</td>
+                <td>Trilha QA</td>
+            </tr>
+            <tr>
+                <td>Diego Vieira</td>
+                <td>Trilha QA</td>
+            </tr>
+            <tr>
+                <td>Danilo Torquato</td>
+                <td>Trilha QA</td>
+            </tr>
+            <tr>
+                <td>Gabriel Meira</td>
+                <td>Trilha Backend</td>
+            </tr>
+            <tr>
+                <td>Gabriel Schramm</td>
+                <td>Trilha QA</td>
+            </tr>
+
+            <p>Chocolate branco é <strong>muito</strong> bom.</p>
+            
+        </table>
+    </header>
+
+    <div>
+        <input name="inputed" id="myinput">
+        <button>clique</button>
+        <p id="reponse"> Ao contraário seria: </p>
+    </div>
+
+    <script>
+        let input = document.querySelector("#myinput");
+        let reponse = input.value;
+        response = input.value.split("");
+        reponse = response.reverse.join("");
+        let reponsep = document.querySelector("#reponsep");
+        reponsep.innerHTML = reponse
+    </script>
+</body>
+</html>
