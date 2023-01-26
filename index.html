@@ -49,5 +49,20 @@
             
         </table>
     </header>
+
+    <div>
+        <input name="inputed" id="myinput">
+        <button>clique</button>
+        <p id="reponse"> Ao contraário seria: </p>
+    </div>
+
+    <script>
+        let input = document.querySelector("#myinput");
+        let reponse = input.value;
+        response = input.value.split("");
+        reponse = response.reverse.join("");
+        let reponsep = document.querySelector("#reponsep");
+        reponsep.innerHTML = reponse
+    </script>
 </body>
 </html>
