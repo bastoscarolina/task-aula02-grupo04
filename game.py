@@ -1,8 +1,6 @@
+import random
+
 lista = ["Carol", "Diego", "Danilo", "Gabriel M", "Gabriel S"]
-lista2 = []
-fot i in range (1,5,1)
-    lista2.append(i)
+num = random.choice([0, 1, 2, 3, 4])
 
-num = lista2.random()
-
-print (Lista[num], "ganhou")
+print (lista[num], "ganhou")
